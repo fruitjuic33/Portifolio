@@ -2,7 +2,7 @@
 
 ## 📜 Version History
 
-### [v1.4.0] - 2026-05-13
+### [v1.4.0] - 2026-05-22
 - **Optimized:** Full-site responsive audit for mobile, tablets, and desktop.
 - **Improved:** Used `svh` units in Hero for better mobile browser support.
 - **Improved:** Enhanced grid systems in Skills and Projects for smoother scaling.
@@ -10,7 +10,7 @@
 - **Improved:** Consistent typography and spacing (20/32 padding) across all sections.
 - **Improved:** Polished UI components with larger rounded corners and better hover states.
 
-### [v1.3.0] - 2026-05-13
+### [v1.3.0] - 2026-05-19
 - **Added:** Success state simulation for Contact form with `framer-motion` animations.
 - **Added:** Competitive Programming category in `Skills.tsx`.
 - **Improved:** Animated mobile menu with entry/exit transitions.
@@ -18,10 +18,10 @@
 - **Fixed:** Linting error in `ThemeContext.tsx` related to `react-refresh`.
 - **Fixed:** Vite configuration updated with `base` path for GitHub Pages.
 
-### [v1.2.0] - 2026-05-13
+### [v1.2.0] - 2026-05-17
 - **Changed:** Default theme set to Light Mode.
 
-### [v1.1.0] - 2026-05-13
+### [v1.1.0] - 2026-05-14
 - **Added:** Dynamic Theme Switching (Light/Dark Mode).
 - **Added:** `ThemeContext.tsx` for global state management.
 - **Added:** Persistence for theme preference using `localStorage`.
