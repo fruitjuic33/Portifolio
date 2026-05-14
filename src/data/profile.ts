@@ -1,4 +1,49 @@
-export const profile = {
+export interface Education {
+  degree: string;
+  institution: string;
+  period: string;
+  details?: string;
+}
+
+export interface Experience {
+  role: string;
+  organization: string;
+  period: string;
+  description?: string;
+}
+
+export interface Project {
+  title: string;
+  description: string;
+  tech: string[];
+  link: string;
+  github: string;
+}
+
+export interface Profile {
+  name: string;
+  title: string;
+  location: string;
+  hometown: string;
+  summary: string;
+  email: string;
+  phone: string;
+  linkedin: string;
+  github: string;
+  education: Education[];
+  skills: {
+    languages: string[];
+    web: string[];
+    tools: string[];
+    design: string[];
+    spokenLanguages: string[];
+  };
+  experience: Experience[];
+  projects: Project[];
+  competitiveProgramming: string[];
+}
+
+export const profile: Profile = {
   name: "Munu Pangani",
   title: "Computer Science Student | Prompt Engineer | Learner ",
   location: "Lusaka, Zambia",
@@ -18,11 +63,10 @@ export const profile = {
       degree: "General Certificate of Education (GCE)",
       institution: "Arakan Boys High School, Lusaka",
       period: "2014 – 2016",
-      
     },
   ],
   skills: {
-    languages: ["Python", "JavaScript", "TypeScript", "C", "C++", "Java", ],
+    languages: ["Python", "JavaScript", "TypeScript", "C", "C++", "Java"],
     web: ["React", "Next.js", "HTML5", "CSS3", "Tailwind CSS"],
     tools: ["Git", "GitHub", "Linux", "Markdown", "Vercel", "Netlify"],
     design: ["Figma", "Canva"],
@@ -33,7 +77,7 @@ export const profile = {
       role: "Volunteer",
       organization: "MKP Technologies, Lusaka",
       period: "Feb 2024 – Present",
-      description: "Supervision of Software development life cycle princple adherence"
+      description: "Supervision of Software development life cycle princple adherence",
     },
     {
       role: "Head of IT",
@@ -75,5 +119,6 @@ export const profile = {
       github: "#",
     },
   ],
-  competitiveProgramming: ["Codeforces","LeetCode", "CodeChef"],
+  competitiveProgramming: ["Codeforces", "LeetCode", "CodeChef"],
 };
+
