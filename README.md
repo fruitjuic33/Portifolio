@@ -1,4 +1,3 @@
-A modern, high-performance personal portfolio built with React 19, TypeScript, and Tailwind CSS v4. This project is designed to be sleek, responsive, and easy to maintain.
 
 🛠 Tech Stack
 
